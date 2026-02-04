@@ -1,0 +1,23 @@
+#下面这些包如果装不上，可能网络不好，多装几次就装上了，我也是20240906装的
+
+library(COSG)
+# devtools::install_github('genecell/COSGR')
+library(harmony)
+
+library(ggsci)
+library(dplyr) 
+library(future)
+library(Seurat)
+library(clustree)
+library(cowplot)
+library(data.table)
+library(ggplot2)
+library(patchwork)
+library(stringr)
+library(celldex)
+#BiocManager::install("celldex")
+library(singleseqgset)
+#devtools::install_github("arc85/singleseqgset")
+library(devtools)
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
