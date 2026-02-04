@@ -1,0 +1,11 @@
+{
+    "name": "RStudio Cloud",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["README.md"]
+        }
+    },
+    "forwardPorts": [8787],
+    "remoteUser": "rstudio"
+}
