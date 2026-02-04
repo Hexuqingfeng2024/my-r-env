@@ -7,5 +7,5 @@
         }
     },
     "forwardPorts": [8787],
-    "remoteUser": "rstudio"
+    "remoteUser": "root"
 }
